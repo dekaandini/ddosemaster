@@ -1,0 +1,1285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1244</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout" columnstretch="1,0">
+    <item row="0" column="0">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="maximumSize">
+       <size>
+        <width>450</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="title">
+       <string>Initialization</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QTableWidget" name="input_table">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>409</width>
+           <height>249</height>
+          </size>
+         </property>
+         <attribute name="horizontalHeaderStretchLastSection">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderStretchLastSection">
+          <bool>true</bool>
+         </attribute>
+         <row>
+          <property name="text">
+           <string>Time Point 1</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>7</pointsize>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Time Point 2</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>7</pointsize>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Time Point 3</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>7</pointsize>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Time Point 4</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>7</pointsize>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Time Point 5</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>7</pointsize>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Time Point 6</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>7</pointsize>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Time Point 7</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>7</pointsize>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Time Point 8</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>7</pointsize>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Time Point 9</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>7</pointsize>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Time Point 10</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>7</pointsize>
+           </font>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Time (h)</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>% Injected Activity (% IA)</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_8">
+         <item row="0" column="0">
+          <widget class="QGroupBox" name="groupBox_6">
+           <property name="font">
+            <font>
+             <pointsize>9</pointsize>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="title">
+            <string>Data and Function Input</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_7">
+            <item row="0" column="0">
+             <widget class="QPushButton" name="pushButton_4">
+              <property name="text">
+               <string>Load file</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="selectRadiopharmaceuticalLabel">
+              <property name="font">
+               <font>
+                <pointsize>9</pointsize>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Select Radiopharmaceutical</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="injectedActivityLabel">
+              <property name="font">
+               <font>
+                <pointsize>9</pointsize>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Injected Activity (mCi)</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLineEdit" name="IAedit"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="QPushButton" name="pushButton_6">
+              <property name="text">
+               <string>Conv. to MBq</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLineEdit" name="lineEdit"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="errorModelDataLabel">
+              <property name="font">
+               <font>
+                <pointsize>9</pointsize>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Error Model Data</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1" colspan="2">
+             <widget class="QComboBox" name="errorModelDataComboBox">
+              <item>
+               <property name="text">
+                <string>FSD 10%</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Random error</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="objectiveFunctionLabel">
+              <property name="font">
+               <font>
+                <pointsize>9</pointsize>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Objective Function</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1" colspan="2">
+             <widget class="QComboBox" name="objectiveFunctionComboBox">
+              <item>
+               <property name="text">
+                <string>SSE</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>SSE with Bayes Framework</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="algorithmToFitLabel">
+              <property name="text">
+               <string>Algorithm to Fit</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1" colspan="2">
+             <widget class="QComboBox" name="algorithmToFitComboBox">
+              <item>
+               <property name="text">
+                <string>Trust-Region</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QComboBox" name="sredit">
+              <item>
+               <property name="text">
+                <string>177Lu-DOTATATE</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>177Lu-PSMA</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>TAC Curve and Curve Fitting</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetMaximumSize</enum>
+          </property>
+          <item row="0" column="1">
+           <widget class="QGroupBox" name="groupBox_3">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="title">
+             <string>f2 : A1 * e^(-(λ1 + λphys))t - A1 * e^(-(λbc + λphys))t</string>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+            <layout class="QFormLayout" name="formLayout_12">
+             <item row="0" column="0">
+              <layout class="QFormLayout" name="formLayout_3">
+               <property name="fieldGrowthPolicy">
+                <enum>QFormLayout::FieldsStayAtSizeHint</enum>
+               </property>
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_pg1_2">
+                 <property name="text">
+                  <string>Parameter Guess</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QComboBox" name="cb_pg1_2">
+                 <item>
+                  <property name="text">
+                   <string>Manual</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Automatic</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="labelr21_2">
+                 <property name="text">
+                  <string>R^2</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QLineEdit" name="outr21_2"/>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_aicc1_2">
+                 <property name="text">
+                  <string>AICc</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QLineEdit" name="aICcLineEdit_2"/>
+               </item>
+              </layout>
+             </item>
+             <item row="0" column="1">
+              <layout class="QGridLayout" name="gridLayout_4">
+               <item row="0" column="0">
+                <widget class="QPushButton" name="pushButton_7">
+                 <property name="text">
+                  <string>Fit</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="pushButton_8">
+                 <property name="text">
+                  <string>GoF Result</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="pushButton_9">
+                 <property name="text">
+                  <string>Residual</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="1" column="0">
+              <widget class="QPushButton" name="pushButton_10">
+               <property name="text">
+                <string>Calculate</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0" colspan="2">
+              <layout class="QFormLayout" name="formLayout_4">
+               <item row="0" column="0">
+                <widget class="QLabel" name="tIAUncertaintyLabel_2">
+                 <property name="text">
+                  <string>TIA ± Uncertainty (%.h)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QLineEdit" name="tIAUncertaintyLineEdit_2"/>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="tIACUncertaintyLabel_2">
+                 <property name="text">
+                  <string>TIAC ± Uncertainty (h)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QLineEdit" name="tIACUncertaintyLineEdit_2"/>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QGroupBox" name="groupBox_4">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="title">
+             <string>f3 : A1 * e^(-(λ1 + λphys))t + A2 * e^(-( λphys))t</string>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+            <layout class="QFormLayout" name="formLayout_16">
+             <item row="0" column="0">
+              <layout class="QFormLayout" name="formLayout_7">
+               <property name="fieldGrowthPolicy">
+                <enum>QFormLayout::FieldsStayAtSizeHint</enum>
+               </property>
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_pg1_3">
+                 <property name="text">
+                  <string>Parameter Guess</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QComboBox" name="cb_pg1_3">
+                 <item>
+                  <property name="text">
+                   <string>Manual</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Automatic</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="labelr21_3">
+                 <property name="text">
+                  <string>R^2</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QLineEdit" name="outr21_3"/>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_aicc1_3">
+                 <property name="text">
+                  <string>AICc</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QLineEdit" name="aICcLineEdit_3"/>
+               </item>
+              </layout>
+             </item>
+             <item row="0" column="1">
+              <layout class="QGridLayout" name="gridLayout_5">
+               <item row="0" column="0">
+                <widget class="QPushButton" name="pushButton_11">
+                 <property name="text">
+                  <string>Fit</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="pushButton_12">
+                 <property name="text">
+                  <string>GoF Result</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="pushButton_13">
+                 <property name="text">
+                  <string>Residual</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="1" column="0">
+              <widget class="QPushButton" name="pushButton_17">
+               <property name="text">
+                <string>Calculate</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0" colspan="2">
+              <layout class="QFormLayout" name="formLayout_5">
+               <item row="0" column="0">
+                <widget class="QLabel" name="tIAUncertaintyLabel_3">
+                 <property name="text">
+                  <string>TIA ± Uncertainty (%.h)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QLineEdit" name="tIAUncertaintyLineEdit_3"/>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="tIACUncertaintyLabel_3">
+                 <property name="text">
+                  <string>TIAC ± Uncertainty (h)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QLineEdit" name="tIACUncertaintyLineEdit_3"/>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QGroupBox" name="groupBox_5">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="title">
+             <string>f4 : A1 *[ e^(-(λ1 + λphys))t - e^(-(λ2+ λphys))t]</string>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+            <layout class="QFormLayout" name="formLayout_17">
+             <item row="0" column="0">
+              <layout class="QFormLayout" name="formLayout_8">
+               <property name="fieldGrowthPolicy">
+                <enum>QFormLayout::FieldsStayAtSizeHint</enum>
+               </property>
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_pg1_4">
+                 <property name="text">
+                  <string>Parameter Guess</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QComboBox" name="cb_pg1_4">
+                 <item>
+                  <property name="text">
+                   <string>Manual</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Automatic</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="labelr21_4">
+                 <property name="text">
+                  <string>R^2</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QLineEdit" name="outr21_4"/>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_aicc1_4">
+                 <property name="text">
+                  <string>AICc</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QLineEdit" name="aICcLineEdit_4"/>
+               </item>
+              </layout>
+             </item>
+             <item row="0" column="1">
+              <layout class="QGridLayout" name="gridLayout_6">
+               <item row="0" column="0">
+                <widget class="QPushButton" name="pushButton_14">
+                 <property name="text">
+                  <string>Fit</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="pushButton_15">
+                 <property name="text">
+                  <string>GoF Result</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="pushButton_16">
+                 <property name="text">
+                  <string>Residual</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="1" column="0">
+              <widget class="QPushButton" name="pushButton_18">
+               <property name="text">
+                <string>Calculate</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0" colspan="2">
+              <layout class="QFormLayout" name="formLayout_6">
+               <item row="0" column="0">
+                <widget class="QLabel" name="tIAUncertaintyLabel_4">
+                 <property name="text">
+                  <string>TIA ± Uncertainty (%.h)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QLineEdit" name="tIAUncertaintyLineEdit_4"/>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="tIACUncertaintyLabel_4">
+                 <property name="text">
+                  <string>TIAC ± Uncertainty (h)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QLineEdit" name="tIACUncertaintyLineEdit_4"/>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QGroupBox" name="groupBox_2">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="title">
+             <string>f1 : A1 * e^(-(λ1 + λphys))t</string>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+            <layout class="QFormLayout" name="formLayout_9">
+             <item row="1" column="0">
+              <widget class="QPushButton" name="cal1_button">
+               <property name="text">
+                <string>Calculate</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0" colspan="2">
+              <layout class="QFormLayout" name="formLayout">
+               <item row="0" column="0">
+                <widget class="QLabel" name="tIAUncertaintyLabel">
+                 <property name="text">
+                  <string>TIA ± Uncertainty (%.h)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QLineEdit" name="tIAUncertaintyLineEdit"/>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="tIACUncertaintyLabel">
+                 <property name="text">
+                  <string>TIAC ± Uncertainty (h)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QLineEdit" name="tIACUncertaintyLineEdit"/>
+               </item>
+              </layout>
+             </item>
+             <item row="0" column="0">
+              <layout class="QFormLayout" name="formLayout_2">
+               <property name="fieldGrowthPolicy">
+                <enum>QFormLayout::FieldsStayAtSizeHint</enum>
+               </property>
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_pg1">
+                 <property name="text">
+                  <string>Parameter Guess</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QComboBox" name="cb_pg1">
+                 <item>
+                  <property name="text">
+                   <string>Manual</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Automatic</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="labelr21">
+                 <property name="text">
+                  <string>R^2</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QLineEdit" name="outr21"/>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_aicc1">
+                 <property name="text">
+                  <string>AICc</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QLineEdit" name="aICc1"/>
+               </item>
+              </layout>
+             </item>
+             <item row="0" column="1">
+              <layout class="QGridLayout" name="gridLayout_3">
+               <item row="0" column="0">
+                <widget class="QPushButton" name="fit1_button">
+                 <property name="text">
+                  <string>Fit</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="res1_button">
+                 <property name="text">
+                  <string>Residual</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="gof1_button">
+                 <property name="text">
+                  <string>GoF Result</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Model Selection - TIAC - Absorbed Dose Calculation</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QGroupBox" name="groupBox_7">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="title">
+           <string>Model Selection - Akaike Criteria</string>
+          </property>
+          <widget class="QWidget" name="formLayoutWidget_10">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>30</y>
+             <width>175</width>
+             <height>108</height>
+            </rect>
+           </property>
+           <layout class="QFormLayout" name="formLayout_11">
+            <item row="0" column="0">
+             <widget class="QLabel" name="aICc1Label">
+              <property name="text">
+               <string>AICc 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="aICc1LineEdit"/>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="aICc2Label">
+              <property name="text">
+               <string>AICc 2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="aICc2LineEdit"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="aICc3Label">
+              <property name="text">
+               <string>AICc 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLineEdit" name="aICc3LineEdit"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="aICc4Label">
+              <property name="text">
+               <string>AICc 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLineEdit" name="aICc4LineEdit"/>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QPushButton" name="pushButton">
+           <property name="geometry">
+            <rect>
+             <x>280</x>
+             <y>70</y>
+             <width>75</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Calculate</string>
+           </property>
+          </widget>
+          <widget class="QWidget" name="formLayoutWidget_11">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>30</y>
+             <width>184</width>
+             <height>108</height>
+            </rect>
+           </property>
+           <layout class="QFormLayout" name="formLayout_13">
+            <item row="0" column="0">
+             <widget class="QLabel" name="wAICc1Label">
+              <property name="text">
+               <string>wAICc 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="wAICc1LineEdit"/>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="wAICc2Label">
+              <property name="text">
+               <string>wAICc 2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="wAICc2LineEdit"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="wAICc3Label">
+              <property name="text">
+               <string>wAICc 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLineEdit" name="wAICc3LineEdit"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="wAICc4Label">
+              <property name="text">
+               <string>wAICc 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLineEdit" name="wAICc4LineEdit"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_8">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="title">
+           <string>TIAC Calculation</string>
+          </property>
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>75</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Calculate</string>
+           </property>
+          </widget>
+          <widget class="QWidget" name="formLayoutWidget_12">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>70</y>
+             <width>232</width>
+             <height>52</height>
+            </rect>
+           </property>
+           <layout class="QFormLayout" name="formLayout_14">
+            <item row="0" column="0">
+             <widget class="QLabel" name="tIACAvgLabel">
+              <property name="text">
+               <string>TIAC avg</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="tIACAvgLineEdit"/>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="standarErrorSELabel">
+              <property name="text">
+               <string>Standar Error (SE)</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="standarErrorSELineEdit"/>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QPushButton" name="pushButton_5">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>30</y>
+             <width>75</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Show</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>20</y>
+             <width>231</width>
+             <height>131</height>
+            </rect>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>10</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_9">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="title">
+           <string>Absorbed Dose Calculation</string>
+          </property>
+          <widget class="QWidget" name="formLayoutWidget_13">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>50</y>
+             <width>194</width>
+             <height>81</height>
+            </rect>
+           </property>
+           <layout class="QFormLayout" name="formLayout_15">
+            <item row="0" column="0">
+             <widget class="QLabel" name="selectPhantomLabel">
+              <property name="text">
+               <string>Select Phantom</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QComboBox" name="selectPhantomComboBox">
+              <item>
+               <property name="text">
+                <string>Adult Female</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Adult Male</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="sourceOrganLabel">
+              <property name="text">
+               <string>Source Organ</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QComboBox" name="sourceOrganComboBox">
+              <item>
+               <property name="text">
+                <string>Kidney</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Stomach</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Pancreas</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Lungs</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Small Intestine</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Colon</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="targetOrganLabel">
+              <property name="text">
+               <string>Target Organ</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QComboBox" name="targetOrganComboBox">
+              <item>
+               <property name="text">
+                <string>Kidney</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Stomach</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Pancreas</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Lungs</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Small Intestine</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Colon</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>80</y>
+             <width>75</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Calculate</string>
+           </property>
+          </widget>
+          <widget class="QWidget" name="formLayoutWidget_14">
+           <property name="geometry">
+            <rect>
+             <x>410</x>
+             <y>70</y>
+             <width>148</width>
+             <height>46</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <item>
+             <widget class="QLabel" name="absorbedDoseMGyMBqLabel">
+              <property name="text">
+               <string>Absorbed Dose (mGy/MBq)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="abdose"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1244</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
